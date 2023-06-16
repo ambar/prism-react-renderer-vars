@@ -1,0 +1,37 @@
+:root {
+  --xPrism-color: #403f53;
+  --xPrism-backgroundColor: #FBFBFB;
+  --xPrism-changed-color: rgb(162, 191, 252);
+  --xPrism-deleted-color: rgba(239, 83, 80, 0.56);
+  --xPrism-inserted-color: rgb(72, 118, 214);
+  --xPrism-comment-color: rgb(152, 159, 177);
+  --xPrism-string-color: rgb(72, 118, 214);
+  --xPrism-variable-color: rgb(201, 103, 101);
+  --xPrism-number-color: rgb(170, 9, 130);
+  --xPrism-punctuation-color: rgb(153, 76, 195);
+  --xPrism-function-color: rgb(153, 76, 195);
+  --xPrism-class-name-color: rgb(17, 17, 17);
+  --xPrism-tag-color: rgb(153, 76, 195);
+  --xPrism-operator-color: rgb(12, 150, 155);
+  --xPrism-boolean-color: rgb(188, 84, 84);
+}
+
+:root[data-theme="dark"] {
+  --xPrism-color: #d6deeb;
+  --xPrism-backgroundColor: #011627;
+  --xPrism-changed-color: rgb(162, 191, 252);
+  --xPrism-deleted-color: rgba(239, 83, 80, 0.56);
+  --xPrism-inserted-color: rgb(173, 219, 103);
+  --xPrism-comment-color: rgb(99, 119, 119);
+  --xPrism-string-color: rgb(173, 219, 103);
+  --xPrism-variable-color: rgb(214, 222, 235);
+  --xPrism-number-color: rgb(247, 140, 108);
+  --xPrism-builtin-color: rgb(130, 170, 255);
+  --xPrism-punctuation-color: rgb(199, 146, 234);
+  --xPrism-selector-color: rgb(199, 146, 234);
+  --xPrism-class-name-color: rgb(255, 203, 139);
+  --xPrism-tag-color: rgb(127, 219, 202);
+  --xPrism-boolean-color: rgb(255, 88, 116);
+  --xPrism-property-color: rgb(128, 203, 196);
+  --xPrism-namespace-color: rgb(178, 204, 214);
+}

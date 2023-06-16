@@ -1,6 +1,6 @@
 # prism-react-renderer-vars
 
-Use Prism theme with CSS vars
+Use Prism themes with CSS vars to avoid flashing on the initial page load.
 
 ## Install
 

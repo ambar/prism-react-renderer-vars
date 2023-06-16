@@ -1,1 +1,5 @@
-module.exports = require('recommended/config/prettier')
+module.exports = {
+  semi: false,
+  singleQuote: true,
+  bracketSpacing: false,
+}
