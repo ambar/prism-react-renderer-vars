@@ -1,4 +1,4 @@
-export const light = {
+exports.light = {
   plain: {
     color: 'var(--xPrism-color, #000000)',
     backgroundColor: 'var(--xPrism-backgroundColor, #ffffff)',
@@ -101,7 +101,7 @@ export const light = {
   ],
 }
 
-export const dark = {
+exports.dark = {
   plain: {
     color: 'var(--xPrism-color, #9CDCFE)',
     backgroundColor: 'var(--xPrism-backgroundColor, #1E1E1E)',

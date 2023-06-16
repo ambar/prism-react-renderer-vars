@@ -3,8 +3,17 @@
   "version": "1.0.0",
   "description": "Use Prism themes with CSS vars to avoid flashing on the initial page load",
   "license": "MIT",
+  "repository": "ambar/prism-react-renderer-vars",
   "scripts": {},
-  "files": [],
+  "files": [
+    "themes"
+  ],
+  "keywords": [
+    "prism-react-renderer",
+    "prism",
+    "vars",
+    "docusaurus"
+  ],
   "devDependencies": {
     "json5": "^2.2.3",
     "prism-react-renderer": "^2.0.5",

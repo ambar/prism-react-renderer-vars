@@ -68,9 +68,9 @@ for (const [name, lightTheme, darkTheme] of configs) {
   fs.writeFileSync(
     `themes/${name}.js`,
     `
-export const light = ${JSON5.stringify(light, null, 2)}
+exports.light = ${JSON5.stringify(light, null, 2)}
 
-export const dark = ${JSON5.stringify(dark, null, 2)}
+exports.dark = ${JSON5.stringify(dark, null, 2)}
 `.trim()
   )
   fs.writeFileSync(`themes/${name}.css`, css)
