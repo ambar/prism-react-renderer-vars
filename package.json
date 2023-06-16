@@ -1,0 +1,10 @@
+{
+  "name": "prism-react-renderer-vars",
+  "version": "0.0.0",
+  "description": "Use Prism theme with CSS vars",
+  "license": "MIT",
+  "scripts": {},
+  "files": [
+    "lib"
+  ]
+}
